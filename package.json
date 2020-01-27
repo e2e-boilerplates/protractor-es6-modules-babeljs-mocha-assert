@@ -1,0 +1,49 @@
+{
+  "name": "protractor-es6-modules-babeljs-mocha-chai",
+  "version": "1.0.0",
+  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, BabelJS, Mocha and Chai.",
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "test": "npx protractor protractor.conf.js",
+    "test-ci": "npx protractor protractor-ci.conf.js"
+  },
+  "keywords": [
+    "protractor",
+    "commonjs",
+    "mocha",
+    "chai",
+    "boilerplate",
+    "example",
+    "babel"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.8.3",
+    "@babel/core": "7.8.3",
+    "@babel/plugin-transform-runtime": "7.8.3",
+    "@babel/preset-env": "7.8.3",
+    "@babel/register": "7.8.3",
+    "@babel/runtime": "7.8.3",
+    "chai": "4.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.1",
+    "mocha": "7.0.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "protractor": "5.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "puppeteer": "2.0.0"
+  }
+}
