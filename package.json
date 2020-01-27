@@ -1,7 +1,7 @@
 {
-  "name": "protractor-es6-modules-babeljs-mocha-chai",
+  "name": "protractor-es6-modules-babeljs-mocha-assert",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-modules, BabelJS, Mocha and Chai.",
+  "description": "Protractor end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Mocha and Assert.",
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
@@ -15,7 +15,8 @@
     "chai",
     "boilerplate",
     "example",
-    "babel"
+    "babel",
+    "assert"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
