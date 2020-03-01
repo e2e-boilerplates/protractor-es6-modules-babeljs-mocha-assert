@@ -1,25 +1,9 @@
 {
-  "name": "protractor-es6-modules-babeljs-mocha-assert",
-  "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Mocha and Assert.",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "test": "npx protractor protractor.conf.js",
-    "test-ci": "npx protractor protractor-ci.conf.js"
-  },
-  "keywords": [
-    "protractor",
-    "commonjs",
-    "mocha",
-    "chai",
-    "boilerplate",
-    "example",
-    "babel",
-    "assert"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "2.1.1"
+  },
+  "description": "Protractor end-to-end test automation boilerplate, using ES6-Modules, BabelJS, Mocha and Assert.",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.4",
@@ -32,6 +16,7 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "mocha": "7.0.1",
@@ -44,7 +29,29 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "dependencies": {
-    "puppeteer": "2.1.1"
-  }
+  "keywords": [
+    "assert",
+    "babeljs",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "example",
+    "integration test",
+    "mocha",
+    "protractor"
+  ],
+  "license": "MIT",
+  "name": "protractor-es6-modules-babeljs-mocha-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-babeljs-mocha-assert.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "test": "npx protractor protractor.conf.js",
+    "test-ci": "npx protractor protractor-ci.conf.js"
+  },
+  "version": "1.0.0"
 }
