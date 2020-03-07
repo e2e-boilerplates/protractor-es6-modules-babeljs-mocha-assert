@@ -32,20 +32,20 @@
   "keywords": [
     "assert",
     "babeljs",
-    "es modules",
+    "es",
     "mocha",
     "protractor"
   ],
   "license": "MIT",
-  "name": "protractor-es6-modules-babeljs-mocha-assert",
+  "name": "protractor-es-modules-babeljs-mocha-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-babeljs-mocha-assert.git"
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es-modules-babeljs-mocha-assert.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx protractor protractor.conf.js",
-    "test-ci": "npx protractor protractor-ci.conf.js",
+    "test:ci": "npx protractor protractor-ci.conf.js",
     "upadte-webderiver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
