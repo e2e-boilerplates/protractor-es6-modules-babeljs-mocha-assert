@@ -33,7 +33,6 @@
     "assert",
     "babeljs",
     "es modules",
-    "es6",
     "mocha",
     "protractor"
   ],
