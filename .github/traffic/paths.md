@@ -1,0 +1,12 @@
+| referrer                                                                                  | count | uniques |
+| :---------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/actions                         | 4     | 2       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/runs/533260809                  | 3     | 2       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert                                 | 3     | 1       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/actions/runs/62952766           | 2     | 2       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/actions/runs/61853549           | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/actions/runs/64146347           | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/blob/master/protractor.conf.js  | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/blob/master/spec/search.spec.js | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/runs/529134103                  | 1     | 1       |
+| /e2e-boilerplate/protractor-es-modules-babel-mocha-assert/runs/529247145                  | 1     | 1       |
