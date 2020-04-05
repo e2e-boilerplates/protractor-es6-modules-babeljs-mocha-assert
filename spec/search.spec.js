@@ -2,6 +2,7 @@ import { strictEqual } from "assert";
 
 describe("Sandbox", () => {
   before(() => {
+    this.timeout(20000);
     browser.get("https://e2e-boilerplate.github.io/sandbox/");
   });
 
