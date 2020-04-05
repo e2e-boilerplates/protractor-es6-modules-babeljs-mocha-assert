@@ -3,7 +3,7 @@ import { strictEqual } from "assert";
 describe("Sandbox", () => {
   before(() => {
     browser.get("https://e2e-boilerplate.github.io/sandbox/");
-  }).timeout(20000);
+  });
 
   it("should be on Sandbox", async () => {
     const title = await browser.getTitle();
@@ -12,4 +12,4 @@ describe("Sandbox", () => {
     strictEqual(title, "Sandbox");
     strictEqual(await header.getText(), "Sandbox");
   });
-});
+}).timeout(20000);
