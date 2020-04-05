@@ -2,9 +2,8 @@ import { strictEqual } from "assert";
 
 describe("Sandbox", () => {
   before(() => {
-    this.timeout(20000);
     browser.get("https://e2e-boilerplate.github.io/sandbox/");
-  });
+  }).timeout(20000);
 
   it("should be on Sandbox", async () => {
     const title = await browser.getTitle();
